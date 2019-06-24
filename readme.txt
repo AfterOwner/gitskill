@@ -1,19 +1,19 @@
-´®¿Úµ÷ÊÔÏà¹ØÎÄµµ
-Ò»¡¢		Ñ¡ÔñÌâÄ¿£º´®¿Úµ÷ÊÔÖúÊÖ
-¶ş¡¢	¿ª·¢¹ı³Ì
-£¨1£©	ÏÂÔØgit£¬ÔÚgit baseÖĞÉùÃ÷ÓÃ»§Ãû³ÆºÍÓÃ»§ÓÊÏä£»
-£¨2£©	´´½¨±¾µØ²Ö¿â£»
-£¨3£©	³õÊ¼»¯git²Ö¿â£¬µÇÈëGitHub£¬ĞÂ½¨Ò»¸öÔ¶³Ì¿â£»
-£¨4£©	Ê¹ÓÃsshÍ¨ĞÅĞ­Òé´´½¨Ò»¶ÔÃÜÔ¿£¬°Ñ¹«³×¼ÓÈëGitHubÍøÕ¾µÄÕËºÅÖĞ£»
-£¨5£©	»ñÈ¡sshkeyÍê³ÉÆ¥Åä£»
-£¨6£©	Á´½ÓGitHub£¬×îºó½«±¾µØ¿âÀïµÄÎÄ¼şÉÏ´«ÖÁÔ¶³Ì¿â¡£
-Èı¡¢	Ïà¹ØµÄgitÃüÁî
-$ git config --global user.name ¡°gitskill¡±
-$git config --global  user.email ¡°240466730@qq.com¡±
-$ git init£¨³õÊ¼»¯£©
-$ git add MainWindow.xaml.cs(MainWindow.xaml;readme.txt)£¨Ìí¼ÓÎÄ¼ş£©
-$ git commit -m ¡°wrote a readme file¡±
-$ ssh-keygen -t rsa -C¡±240466730@qq.com¡±£¨»ñÈ¡ÃÜÔ¿£©
+ä¸²å£è°ƒè¯•ç›¸å…³æ–‡æ¡£
+ä¸€ã€		é€‰æ‹©é¢˜ç›®ï¼šä¸²å£è°ƒè¯•åŠ©æ‰‹
+äºŒã€	å¼€å‘è¿‡ç¨‹
+ï¼ˆ1ï¼‰	ä¸‹è½½gitï¼Œåœ¨git baseä¸­å£°æ˜ç”¨æˆ·åç§°å’Œç”¨æˆ·é‚®ç®±ï¼›
+ï¼ˆ2ï¼‰	åˆ›å»ºæœ¬åœ°ä»“åº“ï¼›
+ï¼ˆ3ï¼‰	åˆå§‹åŒ–gitä»“åº“ï¼Œç™»å…¥GitHubï¼Œæ–°å»ºä¸€ä¸ªè¿œç¨‹åº“ï¼›
+ï¼ˆ4ï¼‰	ä½¿ç”¨sshé€šä¿¡åè®®åˆ›å»ºä¸€å¯¹å¯†é’¥ï¼ŒæŠŠå…¬åŒ™åŠ å…¥GitHubç½‘ç«™çš„è´¦å·ä¸­ï¼›
+ï¼ˆ5ï¼‰	è·å–sshkeyå®ŒæˆåŒ¹é…ï¼›
+ï¼ˆ6ï¼‰	é“¾æ¥GitHubï¼Œæœ€åå°†æœ¬åœ°åº“é‡Œçš„æ–‡ä»¶ä¸Šä¼ è‡³è¿œç¨‹åº“ã€‚
+ä¸‰ã€	ç›¸å…³çš„gitå‘½ä»¤
+$ git config --global user.name â€œgitskillâ€
+$git config --global  user.email â€œ240466730@qq.comâ€
+$ git initï¼ˆåˆå§‹åŒ–ï¼‰
+$ git add MainWindow.xaml.cs(MainWindow.xaml;readme.txt;readme.docx)ï¼ˆæ·»åŠ æ–‡ä»¶ï¼‰
+$ git commit -m â€œwrote a readme fileâ€
+$ ssh-keygen -t rsa -Câ€240466730@qq.comâ€ï¼ˆè·å–å¯†é’¥ï¼‰
 $ git remote add origin git@github.com:AfterOwner/gitskill.git
-$ git push -u origin master£¨ÉÏ´«£©
-ËÄ¡¢ÉÏ´«µ½GitHubµÄÔ´´úÂëÍøÖ·£ºhttps://github.com/AfterOwner/gitskill
+$ git push -u origin masterï¼ˆä¸Šä¼ ï¼‰
+å››ã€ä¸Šä¼ åˆ°GitHubçš„æºä»£ç ç½‘å€ï¼šhttps://github.com/AfterOwner/gitskill
